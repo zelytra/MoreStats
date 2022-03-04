@@ -1,0 +1,6 @@
+name: MoreStats
+version: '${version}'
+main: fr.zelytra.morestats.MoreStats
+api-version: 1.18
+authors: [ Zelytra ]
+website: https://zelytra.fr
