@@ -1,0 +1,1 @@
+[![](https://jitpack.io/v/zelytra/MoreStats.svg)](https://jitpack.io/#zelytra/MoreStats)
