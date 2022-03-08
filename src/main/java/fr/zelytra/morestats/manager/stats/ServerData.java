@@ -44,6 +44,11 @@ public class ServerData implements StatsListener {
     }
 
     @Override
+    public String getName(){
+        return tableName;
+    }
+
+    @Override
     public void initTable() {
         try {
 

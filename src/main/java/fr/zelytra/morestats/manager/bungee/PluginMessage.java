@@ -25,7 +25,7 @@ public class PluginMessage implements PluginMessageListener {
         }
         final ByteArrayDataInput in = ByteStreams.newDataInput(bytes);
         final SubChannel subChannel = SubChannel.get(in.readUTF());
-        //Histeria.log("PMessage received of : "+channel, LogType.INFO);
+
         switch (subChannel) {
             case SERVER_NAME:
                 MoreStats.server.setServerName(in.readUTF());

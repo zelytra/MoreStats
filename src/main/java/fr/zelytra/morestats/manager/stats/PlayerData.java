@@ -51,6 +51,8 @@ public class PlayerData implements StatsListener {
 
     }
 
+
+
     private void extractPlayerData(MySQL mySQL, Map<String, Object> queryData, OfflinePlayer player) {
         for (var dataMap : columnData.entrySet()) {
 
@@ -102,5 +104,10 @@ public class PlayerData implements StatsListener {
             e.printStackTrace();
         }
 
+    }
+
+    @Override
+    public String getName() {
+        return tableName;
     }
 }
